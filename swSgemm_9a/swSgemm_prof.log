@@ -1,0 +1,23 @@
+  INFO [main.c 32]: main => Init Mats Time : 1.850 ms 
+INFO [main.c 46]: main => Benchmark Sgemm Time : 19574.184 ms
+ 
+INFO [main.c 50]: main => Warm Up First ... 
+INFO [main.c 52]: main => Warm Up Done
+ 
+INFO [main.c 62]: main => My Sgemm Time : 61.207 ms 
+INFO [utils.c 14]: check_value => Check Value Passed
+ 
+
+
+==================(Node 0:CG 2) Hot Function List=================
+No. InstSize(B)    Time(%)   State FunName
+  1         468      94.31  ORIGIN _local_gemm_rcr
+  2         288       2.31  ORIGIN random
+  3         252       1.54  ORIGIN random_r
+  4          64       0.96  ORIGIN rand
+  5         440       0.57  ORIGIN athread_join
+  6         364       0.19  ORIGIN rand_init
+  7         252       0.09  ORIGIN check_value
+==================(Node 0:CG 2) End of HF List=================
+
+

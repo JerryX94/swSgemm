@@ -1,0 +1,9 @@
+INFO [main.c 32]: main => Init Mats Time : 2.004 ms 
+INFO [main.c 46]: main => Benchmark Sgemm Time : 19567.997 ms
+ 
+INFO [main.c 50]: main => Warm Up First ... 
+INFO [main.c 52]: main => Warm Up Done
+ 
+INFO [main.c 62]: main => My Sgemm Time : 62.100 ms 
+INFO [utils.c 14]: check_value => Check Value Passed
+ 
